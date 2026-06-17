@@ -10,7 +10,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `url('/images/hero-telaviv.png')`,
           }}
         />
         {/* Layered gradient overlay */}

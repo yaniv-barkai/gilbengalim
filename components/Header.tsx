@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const t = useTranslations("nav");
@@ -43,21 +44,35 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18 py-3">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex flex-col leading-tight group">
-            <span
-              className={`text-xl font-bold tracking-tight transition-colors ${
-                scrolled ? "text-navy-800" : "text-white"
-              } group-hover:text-gold-500`}
-            >
-              גיל בן גלים
-            </span>
-            <span
-              className={`text-xs font-medium tracking-widest uppercase transition-colors ${
-                scrolled ? "text-navy-600" : "text-white/80"
+          <Link href={`/${locale}`} className="group flex items-center">
+            {/* White-bg logo shown when scrolled */}
+            <div
+              className={`transition-all duration-300 ${
+                scrolled ? "opacity-100 scale-100" : "opacity-0 scale-95 absolute pointer-events-none"
               }`}
             >
-              שמאות מקרקעין
-            </span>
+              <Image
+                src="/images/logo.png"
+                alt="גיל בן גלים - שמאות מקרקעין"
+                width={120}
+                height={52}
+                className="h-12 w-auto object-contain"
+                priority
+              />
+            </div>
+            {/* Text logo shown on transparent hero */}
+            <div
+              className={`flex flex-col leading-tight transition-all duration-300 ${
+                scrolled ? "opacity-0 scale-95 absolute pointer-events-none" : "opacity-100 scale-100"
+              }`}
+            >
+              <span className="text-xl font-bold tracking-tight text-white group-hover:text-gold-300 transition-colors">
+                גיל בן גלים
+              </span>
+              <span className="text-xs font-medium tracking-widest uppercase text-white/75">
+                שמאות מקרקעין
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}

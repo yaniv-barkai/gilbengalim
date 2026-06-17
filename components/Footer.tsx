@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useTranslations();
@@ -18,11 +19,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-1">גיל בן גלים</h3>
-              <p className="text-white/50 text-xs tracking-widest uppercase">
-                שמאות מקרקעין
-              </p>
+            <div className="mb-4 bg-white rounded-xl p-3 inline-block">
+              <Image
+                src="/images/logo.png"
+                alt="גיל בן גלים - שמאות מקרקעין"
+                width={130}
+                height={56}
+                className="h-14 w-auto object-contain"
+              />
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-4">
               {t("footer.member")}
