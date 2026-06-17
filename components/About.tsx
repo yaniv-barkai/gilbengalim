@@ -51,7 +51,7 @@ export default function About() {
             </div>
 
             {/* Floating stats card */}
-            <div className="absolute -bottom-8 -end-4 lg:-end-8 bg-white rounded-2xl shadow-xl p-5 border border-navy-100">
+            <div className="hidden lg:block lg:absolute lg:-bottom-8 lg:-end-8 bg-white rounded-2xl shadow-xl p-5 border border-navy-100">
               <div className="flex items-center gap-2 mb-1">
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
                 <span className="text-xs text-navy-600 font-medium">
