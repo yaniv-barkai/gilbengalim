@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "caseStudy": "Success Stories",
+    "contact": "Contact",
+    "callNow": "Call Now"
+  },
+  "hero": {
+    "tagline": "Professional Real Estate Appraisal",
+    "title": "Gil Ben Galim",
+    "subtitle": "Certified Economist & Real Estate Appraiser",
+    "description": "Member of the Israel Real Estate Appraisers Association. Professional, efficient, and personal service across all areas of real estate appraisal.",
+    "ctaContact": "Contact Us",
+    "ctaServices": "Our Services"
+  },
+  "services": {
+    "sectionLabel": "Expertise",
+    "title": "Professional Services",
+    "subtitle": "A comprehensive range of real estate appraisal, taxation, and valuation services",
+    "items": {
+      "taxation": {
+        "title": "Real Estate Taxation",
+        "description": "Reducing capital gains and purchase taxes, filing objections and counter-assessments, negotiations to reduce real estate tax liability."
+      },
+      "betterment": {
+        "title": "Betterment Levy",
+        "description": "Reviewing betterment levy assessments, reducing betterment levies, filing requests for binding arbitrators and presenting assessments on behalf of obligors."
+      },
+      "appraisal": {
+        "title": "Real Estate Appraisal",
+        "description": "Valuation of commercial and residential properties, land plots. Expert opinions for courts, trustees, and pre-purchase/sale evaluations."
+      },
+      "landAuthority": {
+        "title": "Israel Land Authority",
+        "description": "Advisory services and counter-appraisals against the Israel Land Authority to reduce charges and payments."
+      },
+      "valueDecline": {
+        "title": "Property Value Decline",
+        "description": "Expert opinions on property value decline for claims following approval of a detrimental plan, cellular antenna installation, or construction defects."
+      },
+      "realEstateEconomics": {
+        "title": "Real Estate Economics",
+        "description": "Building rights analysis, economic feasibility opinions, zero reports, combination deals, TAMA 38, and purchase groups."
+      }
+    }
+  },
+  "about": {
+    "sectionLabel": "About",
+    "title": "Gil Ben Galim",
+    "credential": "Certified Economist & Real Estate Appraiser",
+    "memberOf": "Member of the Israel Real Estate Appraisers Association",
+    "bio": "Gil Ben Galim is a certified economist and real estate appraiser with extensive experience in the Israeli real estate market. He provides professional services in property valuation, betterment levy, real estate taxation, and real estate economics for private clients, developers, and courts.",
+    "bio2": "Gil is recognized in his field for his professionalism, thoroughness, and ability to represent clients before tax authorities and municipal appraisers, achieving significant savings on their behalf.",
+    "stats": {
+      "experience": "Years of Experience",
+      "cases": "Cases Handled",
+      "savings": "Average Client Savings"
+    },
+    "experienceYears": "20+",
+    "casesHandled": "500+",
+    "averageSavings": "40%"
+  },
+  "caseStudy": {
+    "sectionLabel": "Case Study",
+    "title": "Herzliya: Negative Betterment Levy",
+    "location": "Herzliya",
+    "tag": "Betterment Levy",
+    "challenge": "The Challenge",
+    "challengeText": "The local committee in Herzliya demanded a betterment levy of ₪841,350 (plus indexation) from Hila Group for a TAMA 38/2 project, after the committee's appraiser determined an appreciation of ₪1,327,900.",
+    "solution": "The Solution",
+    "solutionText": "Gil Ben Galim, representing the developer, argued that no exploitation of rights beyond those granted under TAMA was required, and therefore no betterment levy obligation applied — the new-state calculation produced a negative appreciation.",
+    "result": "The Result",
+    "resultText": "The binding arbitrator accepted Gil Ben Galim's position and determined that the appreciation was negative — the company was released from the full payment.",
+    "saving": "Client Savings",
+    "savingAmount": "₪841,350+",
+    "readMore": "Read Full Article"
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "We're Here to Help",
+    "subtitle": "Leave your details and we'll get back to you shortly, or reach us directly",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "phone": "Phone",
+      "phonePlaceholder": "050-0000000",
+      "email": "Email",
+      "emailPlaceholder": "name@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your property or needs...",
+      "submit": "Send Message",
+      "success": "Thank you! Your message was received, we'll be in touch shortly."
+    },
+    "offices": {
+      "haifa": {
+        "city": "Haifa",
+        "address": "4 Sheshet HaYamim St., Haifa"
+      },
+      "tlv": {
+        "city": "Tel Aviv",
+        "address": "132 Menachem Begin St., Tel Aviv"
+      }
+    },
+    "phone": "054-4484831",
+    "email": "gil@bengalim.co.il"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "member": "Member of the Israel Real Estate Appraisers Association"
+  }
+}
