@@ -19,14 +19,14 @@ export default function Contact() {
 
   const offices = [
     {
-      city: t("offices.haifa.city"),
-      address: t("offices.haifa.address"),
-      icon: <HaifaIcon />,
-    },
-    {
       city: t("offices.tlv.city"),
       address: t("offices.tlv.address"),
       icon: <TlvIcon />,
+    },
+    {
+      city: t("offices.haifa.city"),
+      address: t("offices.haifa.address"),
+      icon: <HaifaIcon />,
     },
   ];
 

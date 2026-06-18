@@ -81,8 +81,8 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-white/55 text-sm">
                 <span className="text-gold-500/70 mt-0.5">📍</span>
                 <div>
-                  <p>{t("contact.offices.haifa.address")}</p>
-                  <p className="mt-1">{t("contact.offices.tlv.address")}</p>
+                  <p>{t("contact.offices.tlv.address")}</p>
+                  <p className="mt-1">{t("contact.offices.haifa.address")}</p>
                 </div>
               </li>
             </ul>
