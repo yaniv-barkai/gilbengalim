@@ -2,6 +2,7 @@
   "nav": {
     "services": "Services",
     "about": "About",
+    "reviews": "Reviews",
     "caseStudy": "Success Stories",
     "contact": "Contact",
     "callNow": "Call Now"
@@ -60,6 +61,44 @@
     "experienceYears": "20+",
     "casesHandled": "500+",
     "averageSavings": "40%"
+  },
+  "reviews": {
+    "sectionLabel": "Client Reviews",
+    "title": "Verified Reviews on Pro.co.il",
+    "subtitle": "Clients who chose Gil highlight his professionalism, punctuality, and clear, efficient service.",
+    "source": "Pro.co.il profile",
+    "rating": "4.95",
+    "outOf": "out of 5",
+    "summary": "60 verified reviews on Pro.co.il, with 95% five-star ratings.",
+    "cta": "View All Reviews",
+    "quotes": {
+      "eliezer": "Gil is service-minded, met the schedule, provided excellent service, and I warmly recommend him.",
+      "giora": "A professional appraiser, very pleasant to work with, and explained the report patiently.",
+      "racheli": "Gil's service was very professional. A pleasant person with a willingness to help at every stage. Recommended. Very fair price.",
+      "hagit": "Gil met the work schedule he set and was very professional."
+    },
+    "people": {
+      "eliezer": {
+        "name": "Eliezer",
+        "location": "Rishon LeZion",
+        "date": "April 2, 2025"
+      },
+      "giora": {
+        "name": "Giora",
+        "location": "Zikhron Ya'akov",
+        "date": "March 25, 2025"
+      },
+      "racheli": {
+        "name": "Racheli",
+        "location": "Netanya",
+        "date": "March 2, 2025"
+      },
+      "hagit": {
+        "name": "Hagit",
+        "location": "Hadera",
+        "date": "April 6, 2025"
+      }
+    }
   },
   "caseStudy": {
     "sectionLabel": "Case Study",
