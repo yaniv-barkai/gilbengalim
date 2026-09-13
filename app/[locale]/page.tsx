@@ -7,6 +7,7 @@ import CaseStudy from "@/components/CaseStudy";
 import Credentials from "@/components/Credentials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Credentials />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }

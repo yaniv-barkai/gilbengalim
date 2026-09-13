@@ -150,5 +150,9 @@
   "footer": {
     "rights": "All rights reserved",
     "member": "Member of the Israel Real Estate Appraisers Association"
+  },
+  "whatsapp": {
+    "label": "Message us on WhatsApp",
+    "prefill": "Hi, I'd like to learn more about your real estate appraisal services"
   }
 }

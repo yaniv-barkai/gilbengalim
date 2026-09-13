@@ -45,3 +45,46 @@ body {
 [dir="rtl"] .flip-rtl {
   transform: scaleX(-1);
 }
+
+@keyframes whatsapp-fab-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes whatsapp-fab-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  70% {
+    transform: scale(1.45);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.45);
+    opacity: 0;
+  }
+}
+
+.whatsapp-fab {
+  animation: whatsapp-fab-in 0.45s ease-out both;
+  animation-delay: 0.6s;
+}
+
+.whatsapp-fab-pulse {
+  animation: whatsapp-fab-pulse 2.4s ease-out infinite;
+  animation-delay: 1.2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-fab,
+  .whatsapp-fab-pulse {
+    animation: none;
+  }
+}
