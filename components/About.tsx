@@ -30,7 +30,7 @@ export default function About() {
               {/* Photo frame */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/images/gil.png"
+                  src="/images/Gil2.png"
                   alt="גיל בן גלים"
                   className="w-full h-96 lg:h-[520px] object-cover object-top"
                 />
